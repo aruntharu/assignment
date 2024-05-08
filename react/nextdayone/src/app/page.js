@@ -1,13 +1,16 @@
-import React from 'react'
-import NavBar from "@/components/navbar/page";
-
-const page = () => {
+const Home = () => {
+  //jsx
   return (
     <div>
-      <NavBar/>
-    <div>Home Page</div>
+      hi
+      <button>click me</button>
+      <div className="greet">hi</div>
+      <input placeholder="enter your name"/>
+      <li>apple</li>
+      <li>ball</li>
     </div>
   )
 }
 
-export default page
+
+export default Home
